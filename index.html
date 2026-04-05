@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manish Yadav | Crafted Code Portfolio</title>
+  <meta name="description" content="Manish Yadav portfolio - MERN Stack Developer, frontend developer, full stack web developer." />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar" id="top">
+    <div class="container nav-wrap">
+      <a href="#home" class="brand">Manish<span>.</span></a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#services">Services</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero section-pad hero-section">
+      <div class="floating-shape shape-1"></div>
+      <div class="floating-shape shape-2"></div>
+      <div class="floating-shape shape-3"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="hero-label">Welcome to my portfolio</p>
+          <h1>Hi, I&apos;m <span class="gradient-text">Manish Yadav</span></h1>
+          <div class="typing-text"><span id="typedRole"></span><span class="typing-cursor"></span></div>
+          <p class="hero-copy">
+            I specialize in building scalable, responsive, and user-friendly web applications using the MERN stack.
+            From intuitive UIs to efficient back-end logic — I bring ideas to life with clean, modern code.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn-gradient">View Projects</a>
+            <a href="#contact" class="btn-outline">Hire Me</a>
+            <a href="#contact" class="btn-outline">Download Resume</a>
+          </div>
+        </div>
+
+        <div class="hero-image-wrap">
+          <div class="profile-glow">
+            <img src="images/my.jpg" alt="Manish Yadav" class="hero-image" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section-pad reveal">
+      <div class="container">
+        <h2 class="section-heading">About <span class="gradient-text">Me</span></h2>
+        <p class="section-subtitle">A passionate web developer dedicated to building modern digital experiences with clean code and thoughtful design.</p>
+
+        <div class="about-copy">
+          <p>I&apos;m Manish Yadav, a MERN Stack Developer with a strong focus on creating responsive, user-friendly web applications. I believe in writing clean, maintainable code and designing interfaces that deliver exceptional user experiences.</p>
+          <p>My journey in web development started with a curiosity about how websites work, and it has grown into a deep passion for building full-stack applications that solve real-world problems. I&apos;m always learning, always building, and always striving to improve my craft.</p>
+        </div>
+
+        <div class="grid grid-4 gap-24 mb-16">
+          <article class="glass-card p-6 text-center hover-lift">
+            <div class="emoji">🧩</div>
+            <h3>Problem Solver</h3>
+            <p>I break complex problems into elegant solutions with clean architecture.</p>
+          </article>
+          <article class="glass-card p-6 text-center hover-lift">
+            <div class="emoji">🎨</div>
+            <h3>Clean UI Builder</h3>
+            <p>Pixel-perfect designs with responsive layouts and smooth interactions.</p>
+          </article>
+          <article class="glass-card p-6 text-center hover-lift">
+            <div class="emoji">🚀</div>
+            <h3>Full Stack Learner</h3>
+            <p>Continuously expanding skills across frontend, backend, and DevOps.</p>
+          </article>
+          <article class="glass-card p-6 text-center hover-lift">
+            <div class="emoji">💼</div>
+            <h3>Freelancer Ready</h3>
+            <p>Open for freelance projects with professional communication and delivery.</p>
+          </article>
+        </div>
+
+        <div class="grid stats-grid gap-24">
+          <article class="glass-card p-6 text-center"><span class="counter gradient-text" data-target="15">0</span><p>Projects Completed</p></article>
+          <article class="glass-card p-6 text-center"><span class="counter gradient-text" data-target="12">0</span><p>Technologies Learned</p></article>
+          <article class="glass-card p-6 text-center"><span class="counter gradient-text" data-target="5">0</span><p>Certifications</p></article>
+          <article class="glass-card p-6 text-center"><span class="counter gradient-text" data-target="18">0</span><p>Months of Practice</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section-pad reveal">
+      <div class="container">
+        <h2 class="section-heading">My <span class="gradient-text">Skills</span></h2>
+        <p class="section-subtitle">Technologies and tools I use to bring ideas to life.</p>
+
+        <div class="grid grid-2 gap-32">
+          <article class="glass-card p-6 hover-lift">
+            <h3 class="skill-title"><span class="dot"></span>Frontend</h3>
+            <div class="skill-group">
+              <div class="skill-row"><div><span>HTML5</span><span>95%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="95%"></div></div></div>
+              <div class="skill-row"><div><span>CSS3</span><span>90%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="90%"></div></div></div>
+              <div class="skill-row"><div><span>JavaScript</span><span>85%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="85%"></div></div></div>
+              <div class="skill-row"><div><span>React.js</span><span>80%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="80%"></div></div></div>
+            </div>
+          </article>
+
+          <article class="glass-card p-6 hover-lift">
+            <h3 class="skill-title"><span class="dot"></span>Backend</h3>
+            <div class="skill-group">
+              <div class="skill-row"><div><span>Node.js</span><span>75%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="75%"></div></div></div>
+              <div class="skill-row"><div><span>Express.js</span><span>75%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="75%"></div></div></div>
+              <div class="skill-row"><div><span>REST APIs</span><span>80%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="80%"></div></div></div>
+            </div>
+          </article>
+
+          <article class="glass-card p-6 hover-lift">
+            <h3 class="skill-title"><span class="dot"></span>Database</h3>
+            <div class="skill-group">
+              <div class="skill-row"><div><span>MongoDB</span><span>70%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="70%"></div></div></div>
+            </div>
+          </article>
+
+          <article class="glass-card p-6 hover-lift">
+            <h3 class="skill-title"><span class="dot"></span>Tools</h3>
+            <div class="skill-group">
+              <div class="skill-row"><div><span>Git</span><span>80%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="80%"></div></div></div>
+              <div class="skill-row"><div><span>GitHub</span><span>85%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="85%"></div></div></div>
+              <div class="skill-row"><div><span>VS Code</span><span>90%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="90%"></div></div></div>
+              <div class="skill-row"><div><span>Responsive Design</span><span>90%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="90%"></div></div></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section-pad reveal">
+      <div class="container">
+        <h2 class="section-heading">My <span class="gradient-text">Projects</span></h2>
+        <p class="section-subtitle">A selection of recent work that showcases my development skills and problem-solving approach.</p>
+
+        <div class="grid grid-2 gap-32">
+          <article class="gradient-border hover-lift project-card">
+            <div class="project-media"><img src="images/b1.jpg" alt="Portfolio Website" /></div>
+            <div class="project-body">
+              <h3>Portfolio Website</h3>
+              <p>A modern, responsive personal portfolio showcasing skills, projects, and certifications with premium animations.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <div class="project-actions"><a href="#" class="btn-gradient sm-btn">Live Demo</a><a href="https://github.com/manishyadav" target="_blank" rel="noreferrer" class="btn-outline sm-btn">Source Code</a></div>
+            </div>
+          </article>
+
+          <article class="gradient-border hover-lift project-card">
+            <div class="project-media"><img src="images/b2.jpg" alt="IntervueAI" /></div>
+            <div class="project-body">
+              <h3>IntervueAI</h3>
+              <p>An AI-powered interview preparation platform with real-time feedback and performance analytics.</p>
+              <div class="tags"><span>React</span><span>Node.js</span><span>MongoDB</span><span>Express</span></div>
+              <div class="project-actions"><a href="#" class="btn-gradient sm-btn">Live Demo</a><a href="https://github.com/manishyadav" target="_blank" rel="noreferrer" class="btn-outline sm-btn">Source Code</a></div>
+            </div>
+          </article>
+
+          <article class="gradient-border hover-lift project-card">
+            <div class="project-media"><img src="images/b3.jpg" alt="DevStack Academy" /></div>
+            <div class="project-body">
+              <h3>DevStack Academy</h3>
+              <p>An online learning platform for developers with curated courses, progress tracking, and community forums.</p>
+              <div class="tags"><span>React</span><span>Express</span><span>MongoDB</span></div>
+              <div class="project-actions"><a href="#" class="btn-gradient sm-btn">Live Demo</a><a href="https://github.com/manishyadav" target="_blank" rel="noreferrer" class="btn-outline sm-btn">Source Code</a></div>
+            </div>
+          </article>
+
+          <article class="gradient-border hover-lift project-card">
+            <div class="project-media"><img src="images/b4.jpg" alt="E-Commerce Dashboard" /></div>
+            <div class="project-body">
+              <h3>E-Commerce Dashboard</h3>
+              <p>A full-featured admin dashboard with product management, analytics, and order tracking capabilities.</p>
+              <div class="tags"><span>React</span><span>Node.js</span><span>MongoDB</span></div>
+              <div class="project-actions"><a href="#" class="btn-gradient sm-btn">Live Demo</a><a href="https://github.com/manishyadav" target="_blank" rel="noreferrer" class="btn-outline sm-btn">Source Code</a></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section-pad reveal">
+      <div class="container">
+        <h2 class="section-heading">My <span class="gradient-text">Services</span></h2>
+        <p class="section-subtitle">Professional web development services tailored to bring your vision to life.</p>
+        <div class="grid grid-3 gap-24">
+          <article class="glass-card p-7 text-center hover-lift"><div class="emoji">🖥️</div><h3>Frontend Web Development</h3><p>Building fast, responsive, and interactive user interfaces with React and modern JavaScript.</p></article>
+          <article class="glass-card p-7 text-center hover-lift"><div class="emoji">⚙️</div><h3>Full Stack Web Apps</h3><p>End-to-end MERN stack applications with robust backend APIs and database management.</p></article>
+          <article class="glass-card p-7 text-center hover-lift"><div class="emoji">📱</div><h3>Responsive Website Design</h3><p>Pixel-perfect layouts that look great on mobile, tablet, and desktop devices.</p></article>
+          <article class="glass-card p-7 text-center hover-lift"><div class="emoji">🚀</div><h3>Landing Page Design</h3><p>High-converting, visually stunning landing pages optimized for performance and SEO.</p></article>
+          <article class="glass-card p-7 text-center hover-lift"><div class="emoji">🔧</div><h3>Bug Fixing &amp; Improvement</h3><p>Debugging, performance optimization, and code refactoring for existing websites.</p></article>
+          <article class="glass-card p-7 text-center hover-lift"><div class="emoji">🎯</div><h3>API Development</h3><p>RESTful API design and integration with third-party services and databases.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificates" class="section-pad reveal">
+      <div class="container">
+        <h2 class="section-heading">My <span class="gradient-text">Certificates</span></h2>
+        <p class="section-subtitle">A few certifications that reflect my ongoing learning and commitment to growth.</p>
+        <div class="grid grid-3 gap-24">
+          <article class="gradient-border hover-lift cert-card"><img src="images/c1.jpg" alt="Web Development Certificate" /><div class="project-body"><h3>Web Development Certificate</h3><div class="project-actions"><a href="images/c1.pdf" target="_blank" class="btn-gradient sm-btn">View Certificate</a></div></div></article>
+          <article class="gradient-border hover-lift cert-card"><img src="images/c2.jpg" alt="Frontend Development Certificate" /><div class="project-body"><h3>Frontend Development Certificate</h3><div class="project-actions"><a href="images/c2.pdf" target="_blank" class="btn-gradient sm-btn">View Certificate</a></div></div></article>
+          <article class="gradient-border hover-lift cert-card"><img src="images/c3.jpg" alt="MERN Stack Certificate" /><div class="project-body"><h3>MERN Stack Certificate</h3><div class="project-actions"><a href="images/c3.pdf" target="_blank" class="btn-gradient sm-btn">View Certificate</a></div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="why-hire-me" class="section-pad reveal">
+      <div class="container">
+        <h2 class="section-heading">Why <span class="gradient-text">Hire Me</span></h2>
+        <p class="section-subtitle">Here&apos;s what makes me a great addition to your team or the right choice for your next project.</p>
+        <div class="grid grid-3 gap-24">
+          <article class="glass-card p-6 hover-lift"><div class="emoji">✨</div><h3>Clean &amp; Responsive Websites</h3><p>Every project is built mobile-first with meticulous attention to responsive design.</p></article>
+          <article class="glass-card p-6 hover-lift"><div class="emoji">🎨</div><h3>Modern UI/UX Mindset</h3><p>I prioritize user experience with intuitive interfaces and polished interactions.</p></article>
+          <article class="glass-card p-6 hover-lift"><div class="emoji">📚</div><h3>Fast Learner</h3><p>I quickly adapt to new technologies, frameworks, and project requirements.</p></article>
+          <article class="glass-card p-6 hover-lift"><div class="emoji">💻</div><h3>MERN Stack Knowledge</h3><p>Proficient across the full MERN stack for end-to-end application development.</p></article>
+          <article class="glass-card p-6 hover-lift"><div class="emoji">⚡</div><h3>Performance Focused</h3><p>Optimized code, fast loading times, and efficient resource utilization.</p></article>
+          <article class="glass-card p-6 hover-lift"><div class="emoji">🤝</div><h3>Great Communication</h3><p>Clear, professional communication for smooth freelance and client collaborations.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-pad reveal">
+      <div class="container">
+        <h2 class="section-heading">Get In <span class="gradient-text">Touch</span></h2>
+        <p class="section-subtitle">Have a project in mind or want to collaborate? Let&apos;s connect and build something amazing together.</p>
+
+        <div class="grid contact-grid gap-32">
+          <form class="glass-card p-8 contact-form" id="contactForm">
+            <label>Name<input type="text" required placeholder="Your name"></label>
+            <label>Email<input type="email" required placeholder="your@email.com"></label>
+            <label>Subject<input type="text" required placeholder="Project inquiry"></label>
+            <label>Message<textarea rows="5" required placeholder="Tell me about your project..."></textarea></label>
+            <button type="submit" class="btn-gradient full-width">Send Message</button>
+          </form>
+
+          <div class="contact-cards">
+            <a href="mailto:manish@example.com" class="glass-card contact-card hover-lift"><span>📧</span><div><small>Email</small><strong>manish@example.com</strong></div></a>
+            <a href="#" class="glass-card contact-card hover-lift"><span>📍</span><div><small>Location</small><strong>India</strong></div></a>
+            <a href="https://github.com/manishyadav" target="_blank" rel="noreferrer" class="glass-card contact-card hover-lift"><span>🐙</span><div><small>GitHub</small><strong>github.com/manishyadav</strong></div></a>
+            <a href="https://linkedin.com/in/manishyadav" target="_blank" rel="noreferrer" class="glass-card contact-card hover-lift"><span>💼</span><div><small>LinkedIn</small><strong>linkedin.com/in/manishyadav</strong></div></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-grid">
+        <div>
+          <a href="#home" class="brand footer-brand">Manish.</a>
+          <p>MERN Stack Developer building modern, scalable web applications.</p>
+        </div>
+
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Connect</h4>
+          <div class="footer-socials">
+            <a href="https://github.com/manishyadav" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://linkedin.com/in/manishyadav" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span id="year"></span> Manish Yadav. All rights reserved.</p>
+        <button type="button" class="btn-outline sm-btn" id="backToTop">↑ Back to Top</button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
